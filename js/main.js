@@ -400,3 +400,8 @@ function initApp() {
       await selectMenuChangeEventHandler(event);
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    
+    initApp();
+  });
